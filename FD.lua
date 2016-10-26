@@ -329,7 +329,7 @@ function FD.functions:selected(list)
 end
 
 -- Computes non-optional properties of the digraph.
-function FD.functions:compute(optional)
+function FD.functions:compute()
 	self:selected({
 		"computePreimages",
 		"computeAdjacency",

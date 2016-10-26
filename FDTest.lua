@@ -1,6 +1,6 @@
 local FD = require("FD")
 
-local epsilon = 0.01 -- 1%
+local epsilon = 0.01 -- 1%.
 
 local function ent(x)
 	return -math.log(x)
